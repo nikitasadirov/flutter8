@@ -2,7 +2,7 @@
 
 ## Что сделано
 1. **Launcher Icon** — `assets/icon/app_icon.png`, пакет `flutter_launcher_icons` (dev-зависимость) и секция `flutter_launcher_icons` в конце `pubspec.yaml`. Генерация: `dart run flutter_launcher_icons`.
-2. **Unit Test** — `test/post_logic_test.dart` (16 тестов: AppException, PostCache, PostRepository) + уже существовавший `test/post_repository_test.dart` (6 тестов).
+2. **Unit Test** — `test/post_logic_test.dart` (14 тестов: AppException, PostCache, PostRepository) + уже существовавший `test/post_repository_test.dart` (7 тестов; всего 21 unit + 8 widget = 29).
 3. **Widget Test** — `test/posts_widget_test.dart` (8 тестов): главный экран, поиск/сброс, сортировка, ошибка + повтор, переход на экран деталей и назад, форма создания поста (пустой ввод, корректный ввод).
 4. **Доп. задание (одно, самое лёгкое)** — тестирование некорректных входных данных: пустая форма, строка из пробелов, слишком короткий текст; проверка, что `createPost` при этом не вызывается.
 
